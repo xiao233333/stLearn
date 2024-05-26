@@ -1140,7 +1140,7 @@ def ccinet_plot(
             width=0.3,
             height=0.025,
             lw=5,
-            ec=plt.cm.get_cmap("Blues")(edge_weights[i]),
+            ec=matplotlib.colormaps.get_cmap("Blues")(edge_weights[i]),
             angle=angle,
             theta1=z,
             theta2=360 - z,
@@ -1159,7 +1159,7 @@ def ccinet_plot(
         font_size=font_size,
         font_weight="bold",
         edge_color=edge_weights,
-        edge_cmap=plt.cm.Blues,
+        edge_cmap=matplotlib.colormaps.Blues,
         ax=ax,
     )
     fig.suptitle(title, fontsize=30)
