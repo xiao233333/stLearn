@@ -7,4 +7,5 @@ numpy
 Pillow
 scanpy
 scikit-image
+squidpy
 tensorflow<=2.14.0
