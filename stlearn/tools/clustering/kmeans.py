@@ -16,7 +16,7 @@ def kmeans(
     tol: float = 0.0001,
     random_state: str = None,
     copy_x: bool = True,
-    algorithm: str = "auto",
+    algorithm: str = "elkan",
     key_added: str = "kmeans",
     copy: bool = False,
 ) -> Optional[AnnData]:
