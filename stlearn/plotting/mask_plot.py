@@ -80,7 +80,7 @@ def plot_mask(
 
     cmaps = matplotlib.colors.LinearSegmentedColormap.from_list("", cmap)
 
-    cmap_ = plt.cm.get_cmap(cmaps)
+    cmap_ = matplotlib.colormaps.get_cmap(cmaps)
 
     plt.rcParams["figure.dpi"] = dpi
 

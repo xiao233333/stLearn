@@ -2,7 +2,7 @@ bokeh
 click
 leidenalg
 louvain
-numba
+numba<=0.57.1
 numpy
 Pillow
 scanpy

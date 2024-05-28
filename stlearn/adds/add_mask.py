@@ -127,7 +127,7 @@ def apply_mask(
 
     cmaps = matplotlib.colors.LinearSegmentedColormap.from_list("", cmap)
 
-    cmap_ = plt.cm.get_cmap(cmaps)
+    cmap_ = matplotlib.colormaps.get_cmap(cmaps)
 
     try:
         library_id = list(adata.uns["spatial"].keys())[0]
